@@ -1,0 +1,258 @@
+*{margin:0; padding: 0; border: none; box-sizing: border-box;}
+
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;src: 
+    url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2) format('woff2'),
+    url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff) format('woff'),
+    url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf) format('opentype');
+}
+
+.resultBody {
+    text-align: center;
+    align-items: center; justify-content: center;
+    font-style: italic;
+    font-family: 'Noto Sans KR';
+    background-size: 400% 4000px; 
+    animation: gradient 5s ease infinite; 
+    font-style: italic;
+    font-weight : bold; 
+}
+
+.정커퀸색{
+    background: linear-gradient(-45deg, #ff7300, #ffee00); 
+    background-size: 400% 4000px; 
+    animation: gradient 5s ease infinite; 
+}
+.정커퀸{
+    z-index: -1;
+    background-image: url('./영웅목록/정커퀸.png');
+    background-position: 40% 0%;
+    animation: imgload 1s ease;
+}
+
+.메이색{
+    background: linear-gradient(-45deg, #00bbff, #1e00ff); 
+    background-size: 400% 4000px; 
+    animation: gradient 5s ease infinite; 
+}
+.메이{
+    z-index: -1;
+    background-image: url('./영웅목록/메이.png');
+    background-position: 40% 0%;
+    animation: imgload 1s ease;
+}
+
+.윈스턴색{
+    background: linear-gradient(-45deg, #6c6c6c, #ffffff); 
+    background-size: 400% 4000px; 
+    animation: gradient 5s ease infinite; 
+}
+.윈스턴{
+    z-index: -1;
+    background-image: url('./영웅목록/윈스.png');
+    animation: imgload 1s ease;
+}
+
+.솜브라색{
+    background: linear-gradient(-45deg, #ff00d9, #8000ff); 
+    background-size: 400% 4000px; 
+    animation: gradient 5s ease infinite; 
+}
+.솜브라{
+    z-index: -1;
+    background-image: url('./영웅목록/솜브라.png');
+    animation: imgload 1s ease;
+}
+
+.라인하르트색{
+    background: linear-gradient(-45deg, #747474, #ffffff); 
+    background-size: 400% 4000px; 
+    animation: gradient 5s ease infinite; 
+}
+.라인하르트{
+    z-index: -1;
+    background-image: url('./영웅목록/라인.png');
+    animation: imgload 1s ease;
+}
+
+.디바색{
+    background: linear-gradient(-45deg, #ff0073, #ffffff); 
+    background-size: 400% 4000px; 
+    animation: gradient 5s ease infinite; 
+}
+.디바{
+    z-index: -1;
+    background-image: url('./영웅목록/디바.png');
+    animation: imgload 1s ease;
+}
+
+.솔저76색{
+    background: linear-gradient(-45deg, #ff9d00, #1100ff,#ff0000); 
+    background-size: 400% 4000px; 
+    animation: gradient 5s ease infinite; 
+}
+.솔저76{
+    z-index: -1;
+    background-image: url('./영웅목록/게이.png');
+    animation: imgload 1s ease;
+}
+
+.트레이서색{
+    background: linear-gradient(-45deg, #ff9d00, #ffffff,#ff0000); 
+    background-size: 400% 4000px; 
+    animation: gradient 5s ease infinite; 
+}
+.트레이서{
+    z-index: -1;
+    background-image: url('./영웅목록/트레.png');
+    animation: imgload 1s ease;
+}
+
+.젠야타색{
+    background: linear-gradient(-45deg, #646464, #ffffff,#ffee00); 
+    background-size: 400% 4000px; 
+    animation: gradient 5s ease infinite; 
+}
+.젠야타{
+    z-index: -1;
+    background-image: url('./영웅목록/야타.png');
+    animation: imgload 1s ease;
+}
+
+.바스티온색{
+    background: linear-gradient(-45deg, #ffa600,#62ff00); 
+    background-size: 400% 4000px; 
+    animation: gradient 5s ease infinite; 
+}
+.바스티온{
+    z-index: -1;
+    background-image: url('./영웅목록/바스.png');
+    animation: imgload 1s ease;
+}
+
+.모이라색{
+    background: linear-gradient(-45deg, #ae00ff, #0000008a,#fff700); 
+    background-size: 400% 4000px; 
+    animation: gradient 5s ease infinite; 
+}
+.모이라{
+    z-index: -1;
+    background-image: url('./영웅목록/모이라.png');
+    animation: imgload 1s ease;
+}
+
+.시그마색{
+    background: linear-gradient(-30deg, #009717, #0000008a,#000056); 
+    background-size: 400% 4000px; 
+    animation: gradient 5s ease infinite; 
+}
+.시그마{
+    z-index: -1;
+    background-image: url('./영웅목록/시그마.png');
+    animation: imgload 1s ease;
+}
+
+.메르시색{
+    background: linear-gradient(-30deg, #ff9100, #ffffff,#ffea00); 
+    background-size: 400% 4000px; 
+    animation: gradient 5s ease infinite; 
+}
+.메르시{
+    z-index: -1;
+    background-image: url('./영웅목록/메르시.png');
+    animation: imgload 1s ease;
+}
+
+.겐지색{
+    background: linear-gradient(-30deg, #22ff00, #ffffff); 
+    background-size: 400% 4000px; 
+    animation: gradient 3s ease infinite; 
+}
+.겐지{
+    z-index: -1;
+    background-image: url('./영웅목록/겐지.png');
+    animation: imgload 1s ease;
+}
+
+.위도우메이커색{
+    background: linear-gradient(-30deg, #8800ff, #000000); 
+    background-size: 400% 4000px; 
+    animation: gradient 3s ease infinite; 
+}
+.위도우메이커{
+    z-index: -1;
+    background-image: url('./영웅목록/위도.png');
+    animation: imgload 1s ease;
+}
+
+.레킹볼색{
+    background: linear-gradient(-30deg, #ffbf00, #4d99c9); 
+    background-size: 400% 4000px; 
+    animation: gradient 3s ease infinite; 
+}
+.레킹볼{
+    z-index: -1;
+    background-image: url('./영웅목록/레킹볼.png');
+    animation: imgload 1s ease;
+    
+}
+
+.hero{
+    top : -10%;
+    width: 100%;
+    background-position: 50% 0%;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 80%;
+}
+
+.mbtiBox {
+    text-align: center;
+    font-size: 60px;
+    background-color: #0088ff; 
+    z-index: 3;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.resultBox {
+    top: 60%;
+    position: absolute;
+    width: 100%;
+}
+
+.heroName {
+    width: 100%;
+    font-size: 40px;
+    background-color: #ffffff;
+    padding: 10px; 
+}
+
+.describe {
+    width: 100%;
+    font-size: 30px;
+    background: linear-gradient( #ee7752 70%, #ee765200);
+    padding: 20px; 
+    height: 500px;
+}
+
+
+@keyframes gradient { 
+    0%{ background-position: 0% 50%; } 
+    50%{ background-position: 100% 50%; } 
+    100% { background-position: 0% 50%; }
+ }
+
+@keyframes specialIcon { 
+    0% { transform: translate(-50%,-50%);} 
+    50% { transform: translate(-50%,-50%) scale(1.2);}
+    100% { transform: translate(-50%,-50%);}
+ }
+
+ @keyframes imgload {
+    from{
+        transform: translate(0,80%);
+    }
+ }

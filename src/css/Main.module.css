@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;src: 
+    url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2) format('woff2'),
+    url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff) format('woff'),
+    url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf) format('opentype');
+}
+
+* {
+    white-space: pre-line
+}
+
+body {
+    font-family: 'Noto Sans KR';
+    background: linear-gradient(-45deg, #ffffff); 
+}
+
+h1 {
+    text-align: center;
+    color: #FEA82F;
+}
+
+.sendbox {
+    border: 2px solid #FCECDD;
+    padding: 25px;
+}
+
+
+a {
+    text-decoration: none !important;
+    color: white;
+}
+
+.mainText{
+    font-size: 7vw;
+    color: #82AAE3;
+    background-image: url('../../public/img/owlogo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20vw;
+    margin-top: 0;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.tierimg {
+    border-top: 2px solid #82AAE360;
+    border-bottom: 2px solid #82AAE360;
+}
+
+
+
+img {
+    width: 12%;
+}
+
+
+iframe {
+    width: 80%;
+    margin-bottom: 20px;
+    aspect-ratio: 16 / 9;
+}
+
+.nowquestion {
+    text-align: center;
+    font-size: 30px;
+    color: #82AAE3;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 10px #00000025;
+    margin: 0;
+}
+
+.nowscore {
+    text-align: center;
+    font-size: 40vm;
+    color: #82AAE3;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 10px #00000025;
+    margin: 0;
+
+}
+
+.restartbtn {
+    width: 70%;
+}
+
+footer {
+    text-align: center;
+}
+
+.insta {
+    width: 10%;
+}
+
+.footerText {
+    margin-bottom: 0px;
+    color: #91D8E4;
+}
+
+@media (max-width: 767px){
+	.tier {
+        width: 25%;
+    }
+
+    iframe {
+        width: 100%;
+        margin-bottom: 20px;
+        aspect-ratio: 16 / 9;
+    }
+
+    .mainText{
+        font-size: 15vw;
+        color: #82AAE3;
+        background-image: url('../../public/img/owlogo.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 20vw;
+        margin-top: 0;
+    }
+
+    img {
+        width: 25%;
+    }
+}

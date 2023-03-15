@@ -1,0 +1,14 @@
+.outbody {
+    width: 100vw;
+    height: 100vh;
+}
+
+@media (max-width: 767px){
+
+    .myvid {
+        font-size: 50px;
+        text-shadow: 1px 1px 20px #00000010;
+    }
+
+
+}
